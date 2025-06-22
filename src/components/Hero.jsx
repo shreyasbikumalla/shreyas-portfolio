@@ -25,8 +25,8 @@ export default function Hero() {
           src={avatar}
           alt="Profile"
           style={{
-            width: "400px",
-            height: "400px",
+            width: "300px",
+            height: "300px",
             borderRadius: "50%",
             objectFit: "cover",
             border: "6px solid #cdd3d9",
