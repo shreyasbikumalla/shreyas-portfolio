@@ -8,6 +8,7 @@ export default function Hero() {
   return (
     <section
       id="home"
+      className="hero-offset"
       style={{
         minHeight: "100vh",
         display: "flex",
