@@ -10,6 +10,7 @@ export default function Hero() {
       id="home"
       className="hero-offset"
       style={{
+        paddingTop: "5.5rem",
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
