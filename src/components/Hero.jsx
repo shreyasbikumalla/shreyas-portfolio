@@ -8,7 +8,6 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="hero-offset"
       style={{
         paddingTop: "5.5rem",
         minHeight: "100vh",
