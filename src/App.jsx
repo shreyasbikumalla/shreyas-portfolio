@@ -1,7 +1,6 @@
 // src/App.jsx
 // ───────────────────────────────────────────────────────────
-import Navbar     from "./components/Navbar";
-import ScrollCar  from "./components/ScrollCar.jsx";   // ← roaming car
+import Navbar     from "./components/Navbar"; // ← roaming car
 import Hero       from "./components/Hero.jsx";
 import Projects   from "./components/Projects.jsx";
 import Experience from "./components/Experience.jsx";
@@ -14,9 +13,6 @@ export default function App() {
     <>
       {/* fixed top navigation */}
       <Navbar />
-
-      {/* roaming, clickable car */}
-      <ScrollCar />
 
       {/* main page sections */}
       <Hero />

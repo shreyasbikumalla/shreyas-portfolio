@@ -16,7 +16,7 @@ export default [
     {
       date: "Dec 2024 – May 2025",
       location: "East Lansing, MI",
-      title: "Software Engineer (Research Vounteer)",
+      title: "Software Engineer (Research Volunteer)",
       company: "Michigan State University",
       points: [
         "Optimized C++ and CUDA kernels in SimuCell3D for high-resolution tissue simulations, accelerating runtimes by 80% and maintaining version control on GitHub to support biomedical and healthcare research.",
