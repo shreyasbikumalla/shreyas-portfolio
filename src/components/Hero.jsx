@@ -65,9 +65,13 @@ export default function Hero() {
             marginBottom: "2rem",
           }}
         >
-          <a href="/resume.pdf" className="btn-white" download>
+          <a 
+           href={`${import.meta.env.BASE_URL}resume.pdf`}
+           className="btn-white"
+           download
+           >
             Download&nbsp;Resume
-          </a>
+           </a>
           <a href="#contact" className="btn">
             Contact&nbsp;Info
           </a>
