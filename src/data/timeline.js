@@ -6,7 +6,7 @@ export default [
       title: "Software Engineer",
       company: "Michigan State University",
       points: [
-        "Optimized machine learning algorithms to achieve 99% accuracy in locust brain odor compound detection across multiple time windows.",
+        "Optimized machine learning algorithms to achieve 90+% accuracy in locust brain odor compound detection across multiple time windows.",
         "Developed Python pipelines processing 10-second spatio-temporal datasets to extract features for neural spike classification.",
         "Mentored professors and 5+ lab colleagues in Python programming for collaborative neuroscience research."
       ]

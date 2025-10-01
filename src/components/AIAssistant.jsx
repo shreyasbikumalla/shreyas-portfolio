@@ -35,8 +35,8 @@ const AIAssistant = ({ isOpen, onClose }) => {
     
     // Experience
     experience: {
-      keywords: ['experience', 'work', 'job', 'career', 'professional', 'internship', 'teaching', 'research'],
-      answer: "💼 **Professional Experience:**\n\n🎓 **Graduate Teaching Assistant** (Aug 2024 – May 2025)\n📍 Michigan State University\n• Supported 200+ students in C++, SQL, microservices, Docker\n• Led web app deployment workshops, reduced errors by 15%\n\n🔬 **Software Engineer - Research** (Dec 2024 – May 2025)\n📍 Michigan State University\n• Optimized C++/CUDA kernels, accelerated runtimes by 80%\n• Automated ParaView visualization, streamlined analysis by 40%\n\n📊 **Data Analyst Intern** (Jan 2023 – May 2023)\n📍 Colgate Palmolive, Mumbai\n• Built MySQL-to-Snowflake ETL pipeline, cut refresh cycles by 60%\n• Enhanced reporting across 20+ regions\n\n💻 **Software Engineer** (Sept 2022 – Dec 2022)\n📍 Innobytes, Pune\n• Built full-stack financial platform with React/Redux, PostgreSQL\n• Improved ML model accuracy by 30% with PyTorch/TensorFlow"
+      keywords: ['experience', 'work', 'job', 'career', 'professional', 'internship', 'teaching', 'research', 'neuroscience', 'locust', 'brain'],
+      answer: "💼 **Professional Experience:**\n\n🧠 **Software Engineer** (Jul 2025 – Present)\n📍 Michigan State University\n• Optimized ML algorithms achieving 90+% accuracy in locust brain odor compound detection\n• Developed Python pipelines processing 10-second spatio-temporal datasets for neural spike classification\n• Mentored professors and 5+ lab colleagues in Python programming for neuroscience research\n\n🎓 **Graduate Teaching Assistant** (Aug 2024 – May 2025)\n📍 Michigan State University\n• Supported 200+ students in C++, SQL, microservices, Docker\n• Led web app deployment workshops, reduced errors by 15%\n\n🔬 **Software Engineer - Research** (Dec 2024 – May 2025)\n📍 Michigan State University\n• Optimized C++/CUDA kernels, accelerated runtimes by 80%\n• Automated ParaView visualization, streamlined analysis by 40%\n\n📊 **Data Analyst Intern** (Jan 2023 – May 2023)\n📍 Colgate Palmolive, Mumbai\n• Built MySQL-to-Snowflake ETL pipeline, cut refresh cycles by 60%\n• Enhanced reporting across 20+ regions\n\n💻 **Software Engineer** (Sept 2022 – Dec 2022)\n📍 Innobytes, Pune\n• Built full-stack financial platform with React/Redux, PostgreSQL\n• Improved ML model accuracy by 30% with PyTorch/TensorFlow"
     },
     
     // Projects
@@ -71,8 +71,8 @@ const AIAssistant = ({ isOpen, onClose }) => {
 
     // Specific Technology Questions
     python: {
-      keywords: ['python', 'pytorch', 'tensorflow', 'keras', 'scikit-learn', 'machine learning'],
-      answer: "🐍 **Python Expertise:**\n\nShreyas is highly proficient in Python with extensive experience in:\n• **ML Frameworks**: TensorFlow, Keras, PyTorch, scikit-learn\n• **Projects**: Speech enhancement, graph neural networks, genre classification\n• **Applications**: Data analysis, ETL pipelines, research automation\n• **Performance**: Achieved 85%+ accuracy in GCN models, improved speech PESQ from 1.95→3.25"
+      keywords: ['python', 'pytorch', 'tensorflow', 'keras', 'scikit-learn', 'machine learning', 'neural', 'spatio-temporal'],
+      answer: "🐍 **Python Expertise:**\n\nShreyas is highly proficient in Python with extensive experience in:\n• **ML Frameworks**: TensorFlow, Keras, PyTorch, scikit-learn\n• **Neuroscience Research**: 90+% accuracy in locust brain odor compound detection\n• **Data Processing**: Spatio-temporal datasets, neural spike classification pipelines\n• **Projects**: Speech enhancement, graph neural networks, genre classification\n• **Applications**: Data analysis, ETL pipelines, research automation\n• **Performance**: Achieved 85%+ accuracy in GCN models, improved speech PESQ from 1.95→3.25"
     },
 
     // Cloud & DevOps
