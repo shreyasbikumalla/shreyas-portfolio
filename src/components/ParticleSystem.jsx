@@ -26,8 +26,11 @@ const ParticleSystem = () => {
       constructor() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.vx = (Math.random() - 0.5) * 0.15; // Constant gentle movement
-        this.vy = (Math.random() - 0.5) * 0.15; // Constant gentle movement
+        this.vx = (Math.random() - 0.5) * 0.15; // Initial velocity
+        this.vy = (Math.random() - 0.5) * 0.15; // Initial velocity
+        // Base automatic movement - always active
+        this.baseVx = (Math.random() - 0.5) * 0.05; // Slow automatic drift
+        this.baseVy = (Math.random() - 0.5) * 0.05; // Slow automatic drift
         this.size = Math.random() * 2 + 1;
         this.opacity = Math.random() * 0.5 + 0.2;
         this.baseOpacity = this.opacity;
@@ -55,6 +58,10 @@ const ParticleSystem = () => {
           }
         }
 
+        // Apply base automatic movement (always active)
+        this.vx += this.baseVx * 0.1; // Add base drift to current velocity
+        this.vy += this.baseVy * 0.1; // Add base drift to current velocity
+        
         // Apply velocity with balanced damping for constant gentle movement
         this.x += this.vx;
         this.y += this.vy;
