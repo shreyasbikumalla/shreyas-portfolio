@@ -1062,7 +1062,7 @@ ul,.card{list-style:none;margin:0;padding:0}
 /* Mobile responsive hero section */
 @media (max-width: 768px) {
   #home {
-    padding-top: 6rem !important;
+    padding-top: 9rem !important;
   }
   
   .hero-avatar {
@@ -1090,7 +1090,7 @@ ul,.card{list-style:none;margin:0;padding:0}
 
 @media (max-width: 480px) {
   #home {
-    padding-top: 5rem !important;
+    padding-top: 8rem !important;
   }
   
   .hero-avatar {

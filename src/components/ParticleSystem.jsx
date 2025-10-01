@@ -26,8 +26,8 @@ const ParticleSystem = () => {
       constructor() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.vx = (Math.random() - 0.5) * 0.5;
-        this.vy = (Math.random() - 0.5) * 0.5;
+        this.vx = (Math.random() - 0.5) * 0.08; // Much slower movement
+        this.vy = (Math.random() - 0.5) * 0.08; // Much slower movement
         this.size = Math.random() * 2 + 1;
         this.opacity = Math.random() * 0.5 + 0.2;
         this.baseOpacity = this.opacity;
@@ -45,21 +45,21 @@ const ParticleSystem = () => {
           const force = (150 - distance) / 150;
           const angle = Math.atan2(dy, dx);
           
-          // Repel when very close, attract when medium distance
+          // Repel when very close, attract when medium distance (very subtle)
           if (distance < 80) {
-            this.vx -= Math.cos(angle) * force * 0.02;
-            this.vy -= Math.sin(angle) * force * 0.02;
+            this.vx -= Math.cos(angle) * force * 0.003;
+            this.vy -= Math.sin(angle) * force * 0.003;
           } else {
-            this.vx += Math.cos(angle) * force * 0.008;
-            this.vy += Math.sin(angle) * force * 0.008;
+            this.vx += Math.cos(angle) * force * 0.001;
+            this.vy += Math.sin(angle) * force * 0.001;
           }
         }
 
-        // Apply velocity with damping
+        // Apply velocity with strong damping for very slow movement
         this.x += this.vx;
         this.y += this.vy;
-        this.vx *= 0.99;
-        this.vy *= 0.99;
+        this.vx *= 0.995; // Stronger damping for slower movement
+        this.vy *= 0.995; // Stronger damping for slower movement
 
         // Boundary wrapping
         if (this.x < 0) this.x = canvas.width;
