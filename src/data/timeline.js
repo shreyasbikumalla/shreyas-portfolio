@@ -1,6 +1,17 @@
 // src/data/timeline.js
 export default [
     {
+      date: "Jul 2025 – Present",
+      location: "East Lansing, MI",
+      title: "Software Engineer",
+      company: "Michigan State University",
+      points: [
+        "Optimized machine learning algorithms to achieve 99% accuracy in locust brain odor compound detection across multiple time windows.",
+        "Developed Python pipelines processing 10-second spatio-temporal datasets to extract features for neural spike classification.",
+        "Mentored professors and 5+ lab colleagues in Python programming for collaborative neuroscience research."
+      ]
+    },
+    {
       date: "Aug 2024 – May 2025",
       location: "East Lansing, MI",
       title: "Graduate Teaching Assistant",
