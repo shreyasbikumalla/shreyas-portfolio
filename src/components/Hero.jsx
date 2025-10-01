@@ -9,7 +9,7 @@ export default function Hero() {
     <section
       id="home"
       style={{
-        paddingTop: "5.5rem",
+        paddingTop: "8rem",
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
