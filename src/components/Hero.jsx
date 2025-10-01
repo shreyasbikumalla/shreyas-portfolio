@@ -28,8 +28,8 @@ export default function Hero() {
           alt="Profile"
           className="hero-avatar"
           style={{
-            width: "380px",
-            height: "380px",
+            width: "340px",
+            height: "340px",
             borderRadius: "50%",
             objectFit: "cover",
             border: "6px solid #cdd3d9",
